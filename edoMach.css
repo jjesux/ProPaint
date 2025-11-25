@@ -1,0 +1,32 @@
+#divStateMachineId {
+    position: absolute;
+    border: 3px solid #0000FF;
+    top: 180px;
+    left: 20px;
+    width: 350px;
+    height: 350px;
+}
+
+.divEdoCL {
+    position: absolute;
+    border: 3px solid #0000FF;
+    padding: 5px;
+    color: #0000FF;
+}
+
+#divEdoAId{
+    top: 20px;
+    left: 10px;
+}
+#divEdoBId{
+    top:20px ;
+    left:180px;
+}
+#divEdoCId{
+    top: 180px;
+    left: 180px;
+}
+#divEdoDId{
+    top: 180px;
+    left: 10px;
+}
