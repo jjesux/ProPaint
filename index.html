@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>State Machine</title>
+        <meta charset="utf-8">
+        <meta name="keywords" content="HTML, CSS, XML, JavaScript">
+        <meta http-equiv="refresh" content="10">
+        <link rel="stylesheet" type="text/css" href="edoMach.css" >
+        <script type="text/javaScript" src="./edoMach.js"></script>
+    </head>
+    <body onload="documentoCargado()">
+        <h1>State Machine</h1>
+        <div id="divStateMachineId" >
+            <div id="divEdoAId" class="divEdoCL" style="">
+                STATE->A<br>
+                <button type="button" id="btnAToBId" onclick="moveToNextState(this)">moveToStateB</button><br>
+                <button type="button" id="btnAToCId" onclick="moveToNextState(this)">moveToStateC</button>
+            </div>
+            <div id="divEdoBId" class="divEdoCL" style="">
+                STATE->B<br>
+                <button type="button" id="btnBToAId" onclick="moveToNextState(this)">moveToStateA</button>
+            </div>
+            <div id="divEdoCId" class="divEdoCL" style="">
+                STATE->C<br>
+                <button type="button" id="btnCToAId" onclick="moveToNextState(this)">moveToStateA</button><br>
+                <button type="button" id="btnCToDId" onclick="moveToNextState(this)">moveToStateD</button>
+            </div>
+            <div id="divEdoDId" class="divEdoCL" style="">
+                STATE->D<br>
+                <button type="button" id="btnDToCId" onclick="moveToNextState(this)">moveToStateC</button><br>
+                <button type="button" id="btnDToAId" onclick="moveToNextState(this)">moveToStateA</button>
+            </div>
+        </div>
+    </body>
+</html>
